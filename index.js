@@ -55,6 +55,9 @@ $(document).ready(function() {
         }
       ]
     },
+    order: [
+      [1, 'asc']
+    ],
     columnDefs: [{
         className: 'desktop',
         targets: [0, 1, 2, 3, 4, 5]
