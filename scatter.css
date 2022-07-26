@@ -292,6 +292,12 @@ li[data-dt-column="7"] .dtr-title {
 }
 
 @media screen and (min-width: 769px) {
+  .mobile-only {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) {
 
   /* #sheet0 {
     width: 100% !important;
